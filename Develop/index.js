@@ -2,11 +2,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
 const http = require('http');
-const md = require('markdown-it')({
-  html: true,
-  linkify: true,
-  typographer: true
-});
+const PDFDocument = require('pdfkit');
 
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -23,7 +19,7 @@ server.listen(port, hostname, () => {
   // console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-const questions =  [
+const questions = [
   {
     type: "input",
     name: "github",
@@ -33,56 +29,67 @@ const questions =  [
     type: "input",
     name: "email",
     message: "Enter your e-mail address"
+  },
+  {
+    type: "input",
+    name: "repo",
+    message: "Enter the name of your GitHub repository"
+  },
+  {
+    type: "input",
+    name: "projectTitle",
+    message: "Enter the title of your project"
   }
 ];
 
-// My GitHub Username: MG-cpu90
     inquirer.prompt(questions).then(answers => {
       // call getGitHubProfileInfo function
         console.log(JSON.stringify(answers, null, '  '));
-        getGitHubProfileInfo(answers.github, answers.email);
+        getGitHubProfileInfo(answers.github, answers.email, answers.repo, answers.projectTitle);
 
       });
 
-async function getGitHubProfileInfo(user, email) {
+async function getGitHubProfileInfo(user, email, repo, title) {
 
     const { data } = await axios.get(
       `https://api.github.com/users/${user}`
     );
 
     data.email = email;
-    
+
+    const repoURL = `https://github.com/${user}/${repo}`;
+
     console.log(data);
+    console.log(repoURL);
+    console.log(title);
 
     const stringData = JSON.stringify(data, null, '  ');
   
-    const result = md.render(`
-    # Title 
-    ## Description 
-    ## Table of Contents
-    ## Installationl
-    ## Usage
-    ## License
-    ## Contributing
-    ## Tests
-    ## Questions
-    * User GitHub profile picture: ![alt text](${data.avatar_url})
-    * User GitHub profile username: ${data.login}
-    * User GitHub email: ${data.email}
-    `);
+    const result = `
+# Title: ${title} 
+## Description 
+## Table of Contents
+## Installation
+## Usage
+## License
+## Contributing
+## Tests
+## Questions
+* User GitHub profile picture:
+
+![alt text](${data.avatar_url} "User GitHub Profile Picture")
+* User GitHub profile username: [${data.login}](${data.html_url})
+* User GitHub email: [${data.email}](mailto:${data.email})
+* User GitHub repository: ${repoURL}
+`;
 
     console.log(result);
 
-    fs.writeFile("readme3.md", result, function (err) {
+    fs.writeFile("readmetemplate.md", result, function (err) {
       if (err) return console.log(err);    
     });
 
     console.log(data.avatar_url);
-  
+
+    server.close();
 }
-
-function init() {
-
-}
-
-init();
