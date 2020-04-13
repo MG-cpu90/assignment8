@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="body-container">
     <div class="row">
       <div class="col m-12 border bg-light">
         <header class='masthead'>
@@ -24,8 +24,8 @@
     </div>
     <div class="row">
       <div class="col m-12 border bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark id=navbar">
+          <a class="navbar-brand" href="index.html">Massimo Guida</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,28 +35,18 @@
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Projects
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="project1.html">Project #1</a>
+                    <a class="dropdown-item" href="project1.html">Project #1: ReciPlease</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="assignment3.html">Assignment #3<span class="sr-only">(current)</span></a>
-                    <a class="dropdown-item" href="assignment4.html">Assignemnt #4</a>
+                    <a class="dropdown-item" href="assignment3.html">Assignment #3: Password Generator<span class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="assignment4.html">Assignemnt #4: Coding Quiz</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
           </div>
         </nav>
       </div>
@@ -64,11 +54,18 @@
     <div class="row">
       <div class="col m-12 border bg-light">
         <section class="details">
-            <h2>Assignment #3</h2>
-            <ul class="assignment3">
-                <li><a href="https://mg-cpu90.github.io/passwordgenerator/Develop/" target="_blank">Deployed URL Link</a></li>
-                <li><a href="https://github.com/MG-cpu90/passwordgenerator" target="_blank">GitHub Repository Link</a></li>
-            </ul>
+          <div class="card bg-light mb-3 text-center" style="width: 38rem;">
+            <img src="img/password_generator.png" class="card-img-top" alt="Assignment_3-Screen-shot" width="600" height="200" id="password_generator-screenshot">
+            <div class="card-body">
+              <h5 class="card-title">Assignment #3: Password Generator</h5>
+              <p class="card-text">A website that allows users to generate a random secure password based on a number of selected criteria.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://mg-cpu90.github.io/passwordgenerator/Develop/" target="_blank">Deployed URL Link</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/MG-cpu90/passwordgenerator" target="_blank">GitHub Repository Link</a>
+            </div>
+          </div>
+          <br>
         </section>
       </div>
     </div>

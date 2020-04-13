@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="body-container">
     <div class="row">
       <div class="col m-12 border bg-light">
         <header class='masthead'>
@@ -24,8 +24,8 @@
     </div>
     <div class="row">
       <div class="col m-12 border bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark id=navbar">
+          <a class="navbar-brand" href="index.html">Massimo Guida</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,30 +33,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Projects
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="project1.html">Project #1</a>
+                  <a class="dropdown-item" href="project1.html">Project #1: ReciPlease</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="assignment3.html">Assignment #3</a>
-                  <a class="dropdown-item" href="assignment4.html">Assignemnt #4</a>
+                  <a class="dropdown-item" href="assignment3.html">Assignment #3: Password Generator</a>
+                  <a class="dropdown-item" href="assignment4.html">Assignemnt #4: Coding Quiz</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
           </div>
         </nav>
       </div>
@@ -64,19 +54,36 @@
     <div class="row">
       <div class="col m-12 border bg-light">
         <section class="details">
-          <h2>About Me</h2>
-          <br><!-- Image with link -->
-            <img src="img/image2-copy.jpeg" alt="Headshot" width="250" height="200" id="bio-image">    
-          <br>
-          <p>
-            Massimo Guida is an Italian-Canadian composer, theorist, & copyist, who completed his doctoral studies in composition at the University of Toronto. 
-            He is currently a currently a student of the University of Toronto School of Continuing Studies Coding Bootcamp, and is in the process of learning how to write code.
-            He is originally from Modena, Italy, but currently lives in Toronto, Canada.
-            His favourite hobbies are listening to music, playing the guitar, and playing or watching soccer.
-            He was initially looking to pursue a full-time position as a composition professor, but felt ambivalent about his original career path upon finishing his doctorate. 
-            He is taking the Coding Bootcamp as he would like to be able to know more about coding, and have more work opportunities in the professional field of web development. 
-            He is also looking to apply and combine the knowledge obtained in the Boot Camp with his other areas of interest.
-          </p>
+          <div class="row">
+            <div class="col m-12">
+              <div class="span12">
+                <img src="img/image2-copy.jpeg" class="pull-left myclass" alt="Head-shot" width="250" height="200" id="bio-image">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col m-12 text-center">
+              <br>
+              <h2>About Me</h2>
+            </div>  
+          </div>
+          <div class="row">
+            <div class="col m-12">
+              <br>
+              <p class="text-secondary">
+                May name is Massimo Guida, and I am a Full-Stack Web Developer in training, with knowledge of multiple languages, and an extensive musical background as a composer, theorist, and educator. 
+                I earned a Doctorate in Composition from the University of Toronto, a Conversational Language Certificate in French from the School of Continuing Studies, and I am currently completing a Coding Bootcamp through the latter institution. 
+                I have acquired newly developed skills in HTML, CSS, Bootstrap, JavaScript, jQuery, and Node, and I enjoy exploring new ways to refine my code. 
+                My aim is to combine my passion for music and coding by developing professional looking websites for other musicians. 
+                As a hard-working, organised, and detail-oriented high achiever, I have obtained several scholarships and awards for my compositions, teaching, and academic performance. 
+                Due to the multitude of compositional and research collaborations in which I have taken part, I am able to work well both individually and as part of a team, and I am also an excellent communicator.
+              </p>
+              <br>
+            </div>  
+            </div>
+            </div>
+          </div> 
+          
         </section>
       </div>
     </div>
