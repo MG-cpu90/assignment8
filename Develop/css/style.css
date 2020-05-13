@@ -92,7 +92,8 @@ a {
   font-style: italic;
 }
 
-.icon {
+.icon,
+.copyright {
   color: white;
 }
 
