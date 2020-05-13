@@ -13,6 +13,9 @@ The following website contains a portfolio of some of my coding projects and ass
 * Links to deployed URLs and GitHub Repositories
 * Links to resume, LinkIn Profile, GitHub Profile, e-mail, and phone-number
 
+## Bugs
+* I still need to correct the contact page and write javascript so that the form submits when clicked
+
 ## Links
 * Deployed URL: https://mg-cpu90.github.io/assignment8/Develop/index.html
 * GitHub repository: https://github.com/MG-cpu90/assignment8
