@@ -9,6 +9,8 @@
   <title>Contact</title>
   <!-- Font Awesome CSS -->
   <script src="https://kit.fontawesome.com/f4f5161724.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -19,7 +21,7 @@
 
 <body>
   <!-- Header  -->
-  <div class="container padding-bottom" id="body-container">
+  <div class="container padding-bottom body-container">
     <div class="row">
       <div class="col m-12 border bg-light">
         <header class='masthead'>
@@ -87,42 +89,46 @@
 
     <!-- Main page content  -->
     <div class="row">
-      <div class="col m-12 border bg-light">
-        <section class="details bg-light text-left col-m-12 margin-2 padding-2" style="width: 100%;">
-          <div class="text-center">
-            <h2>Contact</h2>
+      <div class="col m-12 border bg-light margin-2 page-container">
+        <section class="details bg-light text-left col-m-12 padding-5" style="width: 100%;">
+          <div class="contact-div">
+            <div class="text-center padding-2 margin-2">
+              <h2 class="contactHeading">Contact</h2>
+            </div>
+            <div class="card-container">
+              <div class="card text-center padding-2" style="width: 100%;" id="contactCard">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">If you would like to contact me, please submit your full-name, e-mail
+                    address, and a message in the form below!</li>
+                  <li class="list-group-item">I can also be contacted through E-mail and Phone Number links in the footer
+                    at the bottom of each page!</li>
+                  <li class="list-group-item">Please note that the form is currently undergoing maintenance!</li>
+                </ul>
+              </div>
+              <br>
+            </div>
+            <div class="form-container padding-2" style="width: 100%;">
+              <form class="padding-2 margin-2" id="contactForm" action="mailto:massimo@massimoguida.com" method="post"
+                enctype="text/plain">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1 padding-2 margin-2">Name:</label>
+                  <input type="text" class="form-control" id="nameInput" placeholder="Full Name" name="name">
+                </div>
+                <div class="form-group padding-2 margin-2">
+                  <label for="exampleFormControlInput1 padding-2 margin-2">E-mail address:</label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" name="email">
+                </div>
+                <div class="form-group padding-2 margin-2">
+                  <label for="exampleFormControlTextarea1 padding-2 margin-2">Comment:</label>
+                  <textarea class="form-control" id="textArea" rows="3" placeholder="Feel free to leave a comment!"
+                    name="message"></textarea>
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-secondary padding-2 margin-2" id="submitButton" value="Send">Submit</button>
+                </div>
+              </form>
+            </div>
           </div>
-          <div>
-            <div class="card text-center" style="width: 100%;">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">If you would like to contact me, please submit your full-name, e-mail
-                  address, and a message in the form below!</li>
-                <li class="list-group-item">I can also be contacted through E-mail and Phone Number links in the footer
-                  at the bottom of each page!</li>
-                <li class="list-group-item">Please note that the form is currently undergoing maintenance!</li>
-              </ul>
-            </div>
-            <br>
-          </div>
-          <form class="padding-2" id="contactForm" action="mailto:massimo@massimoguida.com" method="post"
-            enctype="text/plain">
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name:</label>
-              <input type="text" class="form-control" id="nameInput" placeholder="Full Name" name="name">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">E-mail address:</label>
-              <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" name="email">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Comment:</label>
-              <textarea class="form-control" id="textArea" rows="3" placeholder="Feel free to leave a comment!"
-                name="message"></textarea>
-            </div>
-            <div>
-              <button type="submit" class="btn btn-secondary" id="submitButton" value="Send">Submit</button>
-            </div>
-          </form>
           <br>
         </section>
       </div>
@@ -137,6 +143,8 @@
             </li>
             <li><i class="fab fa-linkedin icon"></i> <a href="http://www.linkedin.com/in/massimo-guida-23b13a30/"
                 target="_blank">LinkedIn</a></li>
+            <li><i class="fab fa-stack-overflow icon"></i> <a href="https://stackoverflow.com/users/12438851/mguida90"
+              target="_blank">Stack Overflow</a></li>
             <li><i class="fas fa-link icon"></i> <a href="http://www.massimoguida.com" target="_blank">Personal
                 Website</a></li>
             <li><i class="fab fa-soundcloud icon"></i> <a href="https://soundcloud.com/massimo-guida"
@@ -159,7 +167,7 @@
         </footer>
       </div>
     </div>
-  </div>
+
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

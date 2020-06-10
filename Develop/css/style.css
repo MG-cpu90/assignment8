@@ -2,6 +2,9 @@ body {
     color: #222222;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    /* background-image: url("../img/background.jpg");
+    background-color: #cccccc; */
+    max-width: 100%;
 }
 
 .content-footer,
@@ -102,4 +105,48 @@ a {
 .text-container {
   padding: 0 20px 0;
   margin: 0 10px 0;
+}
+
+.page-container {
+  background-image: url("../img/background-large.jpg");
+  /* background-color: #cccccc; */
+  max-width: 100%;
+  align-content: center;
+  /* padding: 0 20px 0; */
+  margin: 0 15px 0;
+}
+
+.body-container {
+  max-width: 100%;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.about {
+  color: #ffffff;
+  text-align: center;
+}
+
+.section {
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-container {
+  margin: 20px;
+  align-content: center;
+}
+
+.contactHeading {
+  padding: 20px;
+}
+
+.youtube-container {
+  padding: 20px;
+}
+
+p {
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
 }
