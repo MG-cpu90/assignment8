@@ -11,6 +11,8 @@ body {
 .masthead-heading,
 .masthead-intro {
   text-align: center;
+  /* position: sticky;
+  top: 0; */
 }
 
 .masthead {
@@ -19,6 +21,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
+  /* position: sticky;
+  top: 0; */
 }
 
 .masthead-intro {
@@ -114,6 +118,9 @@ a {
   align-content: center;
   /* padding: 0 20px 0; */
   margin: 0 15px 0;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
 }
 
 .body-container {
@@ -149,4 +156,17 @@ a {
 
 p {
   font-family: "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.aboutCard {
+  align-content: center;
+  margin: auto;
+}
+
+.card {
+  align-content: center;
+}
+
+.aboutSection {
+  align-content: center;
 }

@@ -21,9 +21,9 @@
 
 <body>
   <!-- Header  -->
-  <div class="container padding-bottom body-container">
+  <div class="container padding-bottom body-container col sm-12">
     <div class="row">
-      <div class="col sm-12 col m-12 border bg-light">
+      <div class="col sm-12 m-12 border bg-light">
         <header class='sm-12 masthead'>
           <p class='masthead-intro'>Massimo Guida</p>
           <h1 class='sm-12 masthead-heading'>Portfolio</h1>
@@ -32,7 +32,7 @@
     </div>
     <!-- Nav-bar  -->
     <div class="row">
-      <div class="col sm-12 col m-12 border bg-light">
+      <div class="col sm-12 m-12 border bg-light">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark id=navbar">
           <a class="navbar-brand" href="index.html">Massimo Guida</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -89,21 +89,20 @@
 
     <!-- Main page content  -->
     <div class="row">
-      <div class="col m-12 border bg-light page-container">
+      <div class="col sm-12 m-12 border bg-light page-container">
         <!-- <div class="col m-12 bg-light text-center padding-2 margin-2"> -->
           <br>
           <h2 class="about">About Me</h2>
         <!-- </div> -->
-        <section class="details bg-light text-center border border-secondary col-m-12 margin-2 padding-2"
+        <section class="details bg-light text-center border border-secondary col sm-12 col m-12 margin-2 padding-2 aboutSection"
           style="width: 100%;">
           <div class="container">
             <div class="row">
-              <div class="col m-6"></div>
-              <div class="col m-4 text-center">
+              <div class="col m-10 sm-10 text-center">
                 <br>
                 <div class="span12 text-center">
-                  <div class="card bg-light mb-12 text-center" style="width: 18rem;">
-                    <img src="img/image2-copy.jpeg" class="card-img-top" alt="Head-shot" width="100" height="225"
+                  <div class="card bg-light mb-12 sm-12 text-center aboutCard" style="width: 70%;">
+                    <img src="img/image2-copy.jpeg" class="card-img-top" alt="Head-shot" width="200" height="225"
                       id="headShot">
                     <div class="card-body">
                       <ul class="text-left">
@@ -118,11 +117,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col m-2"></div>
             </div>
             <div class="row padding-3 margin-3">
-              <div class="col m-12 padding-2 margin-2 bio-text text-center">
+              <div class="col m-12 sm-6 padding-2 margin-2 bio-text text-center">
                 <div class="padding-3 margin-3 text-container">
+                  <br>
                   <p class="text-secondary">
                     My name is Massimo Guida, and I am a Full-Stack Web Developer in training, with knowledge of multiple
                     languages, and an extensive musical background as a composer, theorist, and educator.
@@ -144,8 +143,8 @@
               </div>
             </div>
             <div class="row padding-3 margin-3 youtube-container">
-              <div class="col m-12 padding-2 margin-2 bio-text text-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JZVsnecX-xo" frameborder="0"
+              <div class="col m-12 sm-12 padding-2 margin-2 bio-text text-center">
+                <iframe class="embed-responsive embed-responsive-4by3" width="560" height="315" src="https://www.youtube.com/embed/JZVsnecX-xo" frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
   
@@ -191,7 +190,7 @@
       </footer>
     </div>
   </div>
-
+</div>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
