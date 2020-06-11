@@ -161,10 +161,15 @@ p {
 .aboutCard {
   align-content: center;
   margin: auto;
+  padding: 20px;
 }
 
 .card {
   align-content: center;
+}
+
+.cardContainer {
+  margin: 20px;
 }
 
 .aboutSection {
