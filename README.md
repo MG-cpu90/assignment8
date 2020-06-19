@@ -1,4 +1,4 @@
-# Title: Assignment 8 – Updated Portfolio Page
+# Title: Assignments 8 & 16 – Updated Portfolio Page
 
 ## Description 
 The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQuery, and contains a portfolio of some of my coding projects and assignments, which include:
@@ -17,6 +17,26 @@ The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQue
 
 ## Bugs
 * I still need to correct the contact page and write javascript so that the form submits when clicked
+
+## Application Screenshot
+
+![alt text](./Develop/img/portfolio_screenshot.png "Portfolio Screen Shot")
+
+## Accessories Used
+### Languages
+* HTML
+* CSS
+* JavaScript
+* [jQuery](https://jquery.com/)
+* [Bootstrap CSS Framework](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+### Programs and Applications
+* Git/Terminal
+
+### Websites
+* [GitHub](https://github.com/)
 
 ## Links
 * Deployed URL: https://mg-cpu90.github.io/assignment8/Develop/index.html

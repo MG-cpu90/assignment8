@@ -11,3 +11,7 @@ submitButton.on("click", function (event) {
     console.log("Form submitted!");
 
 });
+
+$(function () {
+    $('[data-toggle="popover"]').popover()
+  })
