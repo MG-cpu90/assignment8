@@ -12,6 +12,7 @@ The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQue
 * [Assignment #12: Employee Tracker](https://github.com/MG-cpu90/assignment12)
 * [Assignment #13: Eat-Da-Burger!](https://github.com/MG-cpu90/assignment13)
 * [Assignment #19: Employee Directory](https://github.com/MG-cpu90/assignment19)
+* [Assignment #21: Google Books Search](https://github.com/MG-cpu90/assignment21)
 * Links to deployed URLs and GitHub Repositories
 * Links to resume, LinkIn Profile, GitHub Profile, e-mail, and phone-number
 
