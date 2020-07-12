@@ -12,6 +12,7 @@ The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQue
 * [Assignment #12: Employee Tracker](https://github.com/MG-cpu90/assignment12)
 * [Assignment #13: Eat-Da-Burger!](https://github.com/MG-cpu90/assignment13)
 * [Assignment #19: Employee Directory](https://github.com/MG-cpu90/assignment19)
+* [Assignment #20: React Portfolio](https://github.com/MG-cpu90/assignment20)
 * [Assignment #21: Google Books Search](https://github.com/MG-cpu90/assignment21)
 * Links to deployed URLs and GitHub Repositories
 * Links to resume, LinkIn Profile, GitHub Profile, e-mail, and phone-number
@@ -38,6 +39,9 @@ The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQue
 
 ### Websites
 * [GitHub](https://github.com/)
+
+## Usage
+* In order to run the application, open the "index.html" file inside the Develop folder in the browser window.
 
 ## Links
 * Deployed URL: https://mg-cpu90.github.io/assignment8/Develop/index.html
