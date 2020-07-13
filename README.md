@@ -41,7 +41,8 @@ The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQue
 * [GitHub](https://github.com/)
 
 ## Usage
-* In order to run the application, open the "index.html" file inside the Develop folder in the browser window.
+* In order to run the following application, first clone the GitHub repository to your local device.
+* Then, open the "index.html" file inside the Develop folder in your default browser window
 
 ## Links
 * Deployed URL: https://mg-cpu90.github.io/assignment8/Develop/index.html
