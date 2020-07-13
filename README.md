@@ -4,6 +4,7 @@
 The following website was built using HTML, CSS, Bootstrap, JavaScript, and JQuery, and contains a portfolio of some of my coding projects and assignments, which include:
 * [Project #1: ReciPlease](https://github.com/MG-cpu90/project1)
 * [Project #2: Thankly](https://github.com/MG-cpu90/thankly)
+* [Project #3: Link-N-Park](https://github.com/joel-clifford-bootcamp/project3)
 * [Assignment #3: Password Generator](https://github.com/MG-cpu90/passwordgenerator)
 * [Assignment #4: Coding Quiz](https://github.com/MG-cpu90/code-quiz)
 * [Assignment #9: Note Taker](https://github.com/MG-cpu90/assignment9)
